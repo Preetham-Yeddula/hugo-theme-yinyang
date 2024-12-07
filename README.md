@@ -38,7 +38,7 @@ theme = "yinyang"
 headTitle = "Joway Wang"
 ```
 
-If there is no `headTitle` in params, use `.Site.Author.name`.
+If there is no `headTitle` in params, use `.Site.Params.Author.name`.
 
 ### Main section
 
@@ -126,7 +126,7 @@ DefaultContentLanguage = "cn"
   [markup.highlight]
     guessSyntax = true
     noClasses = true
-    style = "bw"
+    style = "wb"
     tabWidth = 2
 
 [author]
